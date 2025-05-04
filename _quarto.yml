@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "ANNA ZAMBO"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+    right:
+      - icon: instagram 
+        href: "https://instagram.com/yourhandle"
+      - icon: linkedin
+        href: "https://linkedin.com/in/anna-zambo-059970230"
+  
+format:
+  html:
+    theme: lux
+    toc: false
+    code-link: true
+    link-external-icon: true   
+    anchor-sections: true
+
+editor: visual
+  
+

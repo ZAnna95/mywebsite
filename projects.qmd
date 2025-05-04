@@ -1,0 +1,35 @@
+---
+title: "Projects"
+format: html
+css: "styles-projects.css"
+---
+
+# My Projects
+
+## Project 1: Data Analysis for XYZ
+
+[![Klima](./image/trees.jpg)](project1.qmd)
+
+**Description:** Analyzed sales data to find trends and insights.\
+**Tools Used:** R, Python, SQL\
+[View Project](project1.qmd)
+
+------------------------------------------------------------------------
+
+## Project 2: Machine Learning Model for ABC
+
+[![ML Model](images/project2_thumb.png)](project2.qmd)
+
+**Description:** Developed a machine learning model to predict customer churn.\
+**Tools Used:** Python, TensorFlow\
+[View Project](project2.qmd)
+
+------------------------------------------------------------------------
+
+## Project 3: Web Scraping for DEF
+
+[![Web Scraping](images/project3_thumb.png)](project3.qmd)
+
+**Description:** Created a web scraper to collect data from e-commerce sites.\
+**Tools Used:** Python, BeautifulSoup\
+[View Project](project3.qmd) ---

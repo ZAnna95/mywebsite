@@ -1,0 +1,22 @@
+---
+title: "About Me"
+format: html
+css: styles-about.css
+---
+
+::: container
+![](./image/annazambo.jpg){.profile-img}
+
+**Hi, I'm Anna** 👋
+
+\
+I started this blog out of curiosity — to explore how climate, AI, society and tech intersect, and to share content that can raise awareness, spark action, or question the status quo.
+
+I’m a human-centered communicator and strategy nerd with a background in international relations, linguistics, and data-driven innovation. I’ve worked across the humanitarian world, startup ecosystems, and the corporate universe — always looking for the sweet spot where curiosity, empathy, and impact meet.
+
+I hope you enjoy poking around here. Have fun — and if something sparks your mind, let’s connect 🚀
+
+<a href="https://www.linkedin.com/in/anna-zambo-059970230/"class="linkedin-button"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Logo"/> Get in touch </a>
+:::
+
+------------------------------------------------------------------------

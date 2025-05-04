@@ -1,0 +1,54 @@
+---
+title: "Welcome to my website!"
+format: html
+css: styles-home.css
+---
+
+::: typing-effect
+:::
+
+```{=html}
+<script>
+const texts = [
+  "Hi there! I'm Anna.",
+  "Tech-curious 💡🚀",
+  "Human-centered 🧠🦾",
+  "Nature-driven 🌿🌍",
+];
+
+let index = 0;
+let isErasing = false;
+const typingSpeed = 100; // A gépelés sebessége
+const erasingSpeed = 50; // A törlés sebessége
+const delayBetweenTexts = 2000; // Késleltetés a szövegek között (ms)
+const element = document.querySelector('.typing-effect');
+
+function type() {
+  const currentText = texts[index];
+  const displayedText = element.innerHTML;
+
+  if (!isErasing) {
+    element.innerHTML = currentText.substring(0, displayedText.length + 1);
+    if (displayedText.length + 1 === currentText.length) {
+      isErasing = true;
+      setTimeout(type, delayBetweenTexts); // Késleltetés a törlés előtt
+    } else {
+      setTimeout(type, typingSpeed);
+    }
+  } else {
+    element.innerHTML = currentText.substring(0, displayedText.length - 1);
+    if (displayedText.length === 0) {
+      isErasing = false;
+      index = (index + 1) % texts.length; // Következő szöveg
+      setTimeout(type, typingSpeed);
+    } else {
+      setTimeout(type, erasingSpeed);
+    }
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(type, typingSpeed);
+});
+</script>
+```

@@ -1,0 +1,81 @@
+---
+title: "Future Lives: Smart Cities, Flying Cars, and Digital Dreams"
+date: 2025-04-21
+format:
+  html:
+    toc: true
+    css: futurelivesstyles.css
+    code-fold: false
+---
+
+::: {.hero style="color: black"}
+# 🌍🏙️ Future Lives {style="color: black"}
+
+> ::: {style="color: dimgray"}
+> Smart Cities, Flying Cars, Digital Worlds: What Will Define Our Future Lives?
+> :::
+:::
+
+::: {style="color: grey"}
+Hi, I’m Anna — a tech-curious communicator with a green heart. I write about innovation, sustainability, and how we can make emerging technologies actually work for humans (not the other way around).
+
+Imagine waking up in a city where your coffee is brewed by AI and your commute happens in the sky. The meet is created by 3D printer
+:::
+
+![Created by ChatGPT Image Generation](images/ChatGPT%20Image%202025.%20ápr.%2027.%2017_35_11-01.png){width="600"}
+
+::: {style="color: grey"}
+If you are wondering about the title, this post was inspired by World Expo 2025, which centers around the theme of future societies. If you are drawn to innovation and cutting-edge technologies, you’re in the right place.
+:::
+
+------------------------------------------------------------------------
+
+## 🎯 The Vision Behind World Expo 2025 {style="color: black"}
+
+::: {style="color: grey"}
+The World Expo is an incredible opportunity to meet people from all over the globe. It brings together countries and cultures, celebrating innovation and without regard to age, gender, or status.Since the first World Expo in 1851, many impressive changes have taken place around the world.
+
+This year's theme is *"Designing Future Society for Our Lives,"* with three sub-themes: *"Saving Lives," "Empowering Lives,"* and *"Connecting Lives."* As this is just a short post, I won't be able to cover all of the sub-topics in detail. That’s why I chose to focus on *"The Future of Community and Mobility."*
+
+-   Smart cities
+
+-   disaster prevention and reconstruction
+
+-   metaverse
+
+-   space
+
+-   robots
+
+-   EV/FCV
+
+-   flying cars
+
+-   cyber security
+:::
+
+Technology promises efficiency. Nature thrives on resilience. What if we stopped treating these as opposites?
+
+In this essay, I explore what happens when we apply ecological thinking to artificial intelligence — and why it might be the mindset shift we need in the face of climate breakdown.
+
+------------------------------------------------------------------------
+
+## 🎯The Rise of Smart Cities {style="color: black"}
+
+------------------------------------------------------------------------
+
+## 🎯Why Should AI Care About Trees? {style="color: black"}
+
+------------------------------------------------------------------------
+
+## 
+
+------------------------------------------------------------------------
+
+## 🎯Conclusion: Designing Tomorrow’s World {style="color: black"}
+
+------------------------------------------------------------------------
+
+::: {style="color: grey"}
+*Thanks for reading. If this sparked anything in you, feel free to share or reach out — I’d love to hear your thoughts.*
+:::
