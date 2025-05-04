@@ -1,0 +1,100 @@
+/* Helyes CSS szintaxis */
+
+
+
+
+
+
+/* Styling for the body, setting up the background image */
+body {
+    background-image: url('image/annaszem.jpg'); /* Ensure the path is correct */
+    background-size: cover; /* Cover the entire area of the element */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed; opacity: 8; /* A kép átlátszósága */
+    
+}
+
+
+
+h1 {
+    color: black; /* A cím színe */
+    font-size: 2.5em; /* A cím mérete */
+    text-align: center; /* Középre igazítás */
+    margin-top: 200px !important; /* Felső margó, amely lejjebb tolja a címet */
+}
+
+
+
+
+
+
+
+/* Halványító réteg a háttérképen */
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.45); /* Fehér overlay 60% opacity */
+    z-index: 0; /* Az overlay a háttérkép felett, de a tartalom alatt van */
+}
+
+/* Tartalom */
+.content {
+    position: relative;
+    z-index: 1; /* A szöveg az overlay felett jelenik meg */
+    padding: 20px;
+    color: black; /* Szöveg színe */
+}
+
+
+
+
+
+
+
+/* Gépelés hatás */
+
+/* Gepírás hatás */
+@keyframes typing {
+  from { width: 0ch; }
+  to { width: 60ch; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.typing-effect {
+  font-family: Courier New;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid black; /* A villogó kurzor csak a szöveg mögött */
+  display: inline-block;
+  font-size: clamp(16px, 6vw, 30px);
+  font-weight: 300;
+  color: black;
+  box-sizing: border-box;
+  height: 2em; 
+  width: fit-content;
+  padding-left: 200px;
+  animation: blink 0.5s step-end infinite; /* Villogó kurzor */
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
